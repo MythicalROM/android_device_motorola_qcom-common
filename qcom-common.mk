@@ -153,7 +153,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.composition.type=dyn \
     persist.hwc.mdpcomp.enable=true \
     debug.mdpcomp.logs=0 \
-    debug.enabletr=0
+    debug.enabletr=0 \
+    mm.enable.smoothstreaming=true
 
 # QCOM Display
 PRODUCT_PACKAGES += \
