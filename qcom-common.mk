@@ -79,6 +79,10 @@ PRODUCT_PACKAGES += \
     regdbdump \
     regulatory.bin
 
+# Qcom SoftAP
+PRODUCT_PACKAGES += \
+    libQWiFiSoftApCfg
+
 # Live Wallpapers
 PRODUCT_PACKAGES += \
     LiveWallpapers \
