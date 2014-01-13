@@ -193,8 +193,10 @@ PRODUCT_PACKAGES += \
     libemoji
 
 # QC Perf
+ifneq ($(TARGET_BOARD_PLATFORM),msm8226)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=/system/lib/libqc-opt.so
+endif
 
 # QCOM
 PRODUCT_PROPERTY_OVERRIDES += \
